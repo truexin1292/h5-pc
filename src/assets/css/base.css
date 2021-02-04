@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-touch-callout: default;
+  -webkit-user-select: text;
+  user-select: text;
+  touch-action: none;
+}
+
+html {
+  -webkit-text-size-adjust: none;
+  height: 100%;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+body {
+  font-size: 14px;
+  vertical-align: baseline;
+  text-size-adjust: none;
+  -webkit-user-select: none;
+  margin: 0 auto;
+  font-family: 'Microsoft YaHei', 'Microsoft JhengHei';
+  background: #eee;
+  height: 100%;
+}
+
+img {
+  border: none;
+  vertical-align: top;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #49a9ee;
+}
+
+li {
+  list-style: none;
+}
+
+*:focus {
+  outline: none;
+  outline: 0;
+}
+
+b,
+i,
+em {
+  font-style: normal;
+}
+
+b {
+  font-weight: normal;
+}
+
+a:active {
+  opacity: 0.8;
+}
+
+input,
+textarea,
+select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border: none;
+  background: #fff;
+  font-family: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+::-webkit-input-placeholder {
+  color: #999;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background: rgba(31, 39, 82, .3);
+  opacity: 0;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 6px;
+  height: 6px;
+  background: rgba(31, 39, 82, 0);
+  transition: all .2s;
+  border-radius: 0.25rem;
+}
+
+::-webkit-scrollbar-track:hover {
+  display: block;
+  border-radius: 0;
+  background: #ebebeb;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(31, 39, 82, .3);
+}
+
